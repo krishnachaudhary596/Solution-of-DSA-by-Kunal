@@ -11,23 +11,23 @@ public class FibonacciSeries {
         int a = 0;
         int b = 1;
         
-        // Using While loop
-        // int count = 2;
+//         Using While loop
+         int count = 2;
 
-    //     while(count <= n){
-    //         int temp = b;
-    //         b = b + a;
-    //         a = temp;
-    //         count++;
-    //     } System.out.println(b);
-    // }
+         while(count <= n){
+             int temp = b;
+             b = b + a;
+             a = temp;
+             count++;
+         } System.out.println(b);
+     }
 
     // Using for loop
-        for(int count=2; count<=n; count++){
-            int temp = b;
-            b = b + a;
-            a = temp;  
-        }
-        System.out.println(b);
+//        for(int count=2; count<=n; count++){
+//            int temp = b;
+//            b = b + a;
+//            a = temp;
+//        }
+//        System.out.println(b);
 }
-}
+

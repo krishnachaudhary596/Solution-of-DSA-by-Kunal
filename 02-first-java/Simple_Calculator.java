@@ -18,7 +18,7 @@ public class Simple_Calculator {
 
         // Use if conditions to perform the correct operation
 
-        if (operator.equals("+")){
+        if (operator.equals("+")) {
             result = num1 + num2;
             System.out.println(result);
         }
